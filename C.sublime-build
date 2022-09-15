@@ -1,0 +1,7 @@
+{
+    "target": "terminus_open",
+    "auto_close": false,
+    // "cancel": "terminus_cancel_build",
+    "working_dir": "$folder",
+    "shell_cmd": "clang $file -Wall -I ./ -g -std=gnu2x -o ./bin/$file_name && printf '\\n' && time ./bin/$file_name",
+}
