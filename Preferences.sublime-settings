@@ -44,8 +44,36 @@
     "line_padding_top": 0,
     "line_padding_bottom": 0,
 
-
     "scroll_context_lines": 6,
+
+    "hot_exit": "always",
+    "remember_full_screen": true,
+    "remember_workspace": true,
+    "remember_layout": true,
+
+    "reload_file_on_change": false,
+    "close_deleted_files": true,
+
+    "close_windows_when_empty": true,
+
+    "show_full_path": false,
+
+    "show_project_first": false,
+
+    "show_git_status": true,
+    "show_errors_inline": true,
+
+    "git_diff_target": "head",
+
+    "preview_on_click": true,
+
+    "console_max_history_lines": 100,
+
+    "index_files": true,
+
+    "index_workers": 16,
+    "index_exclude_gitignore": false,
+    "index_skip_unknown_extensions": false,
 
     // "draw_white_space": ["trailing", "enclosed", "leading"],
     "draw_white_space": ["all"],
