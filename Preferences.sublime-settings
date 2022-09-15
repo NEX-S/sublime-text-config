@@ -1,16 +1,135 @@
 {
+	"hardware_acceleration": "opengl",
+
+    "default_encoding": "UTF-8",
+    "default_line_ending": "unix",
+
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Packages/Duotones Colorschemes/duotone-dark.dark.tmTheme",
+	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkdesert.dark.tmTheme",
+    "themed_title_bar": true,
+    "file_tab_style": "angled",
+
+    "scroll_speed": 1,
+
+    "tree_animation_enabled": false,
+    "animation_enabled": false,
+
 	"font_size": 12,
 	"font_face": "JetBrainsMono Nerd Font Mono",
+
+    "highlight_modified_tabs": true,
+    "show_tab_close_buttons": true,
+    "show_tab_close_buttons_on_left": false,
+
+    "bold_folder_labels": false,
+
+    "adaptive_dividers": true,
+
+    "popup_shadows": false,
+
+    "overlay_scroll_bars": "enabled",
+
+    "hide_tab_scrolling_buttons": true,
+
+    "hide_new_tab_button": true,
+
+    "show_sidebar_button": true,
+
+    "show_git_status_in_status_bar": true,
+
+    "show_syntax": true,
+    "show_indentation": true,
+    "show_line_endings": false,
+
+    "line_padding_top": 0,
+    "line_padding_bottom": 0,
+
+
+    "scroll_context_lines": 6,
+
+    // "draw_white_space": ["trailing", "enclosed", "leading"],
+    "draw_white_space": ["all"],
+    "draw_indent_guides": true,
+    "indent_guide_options": ["draw_active_single"],
+
 	"ignored_packages": [
 	],
-	"hardware_acceleration": "opengl",
+
 	"vintage_start_in_command_mode": true,
 	"vintage_use_clipboard": true,
 	"vintage_ctrl_keys": true,
+
+	"auto_match_enabled": true,
+	"auto_close_tags": true,
+
+	"draw_minimap_border": false,
+	"always_show_minimap_viewport": true,
+
+
+	"highlight_line": true,
+    "highlight_gutter": true,
+    "highlight_line_number": true,
+
+
+    "block_caret": true,
+    "caret_style": "phase",
+    "caret_extra_top": 0,
+    "caret_extra_bottom": 0,
+    "caret_extra_width": 1,
+
+    "match_brackets": true,
+    "match_brackets_content": true,
+    "match_brackets_square": true,
+    "match_brackets_braces": true,
+    "match_brackets_angle": false,
+
+    "match_tags": true,
+    "match_selection": false,
+
 	"tab_size": 4,
+	"detect_indentation": false, // ?
+	"indent_to_bracket": true,   // ?
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"auto_indent": true,
+	"smart_indent": true,
+
 	"show_encoding": true,
+	"trim_trailing_white_space_on_save": "not_on_caret",
+
+    "ensure_newline_at_eof_on_save": true,
+
+	"word_wrap": false,
+
+	"gutter": true,
+	"margin": 0,
+	"line_numbers": true,
+	"fold_buttons": true,
+	"fade_fold_buttons": false,
+
+    "show_definitions": true,
+
+    "tab_completion": true,
+
+    "auto_complete": true,
+    "auto_complete_delay": 0,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_with_fields": false,
+    "auto_complete_cycle": true,
+    "auto_complete_use_index": true,
+    "auto_complete_use_history": true,
+    "auto_complete_preserve_order": "strict",
+    "auto_complete_trailing_symbols": true,
+    "auto_complete_trailing_spaces": true,
+
+    "auto_complete_include_snippets": true,
+
+    "auto_hide_menu": true,
+    "auto_hide_tabs": false,
+    "auto_hide_status_bar": false,
+
+    "hide_pointer_while_typing": true,
+
+    "copy_with_empty_selection": true,
+
 }
