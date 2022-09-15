@@ -36,17 +36,7 @@
         ]
     },
 
-    // {   "keys": ["escape", "escape"],
-    //     "command": "show_overlay",
-    //     "args": {
-    //         "overlay": "command_palette",
-    //     },
-    //     "context": [
-    //         { "key": "setting.command_mode" }
-    //     ]
-    // },
-
-    {   "keys": ["tab"],
+    {   "keys": ["escape"],
         "command": "show_overlay",
         "args": {
             "overlay": "command_palette",

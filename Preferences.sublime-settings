@@ -9,8 +9,6 @@
     "themed_title_bar": true,
     "file_tab_style": "angled",
 
-    "scroll_speed": 1,
-
     "tree_animation_enabled": false,
     "animation_enabled": false,
 
@@ -81,7 +79,7 @@
     "indent_guide_options": ["draw_active_single"],
 
 	"ignored_packages": [
-                                     ],
+    ],
 
 	"vintage_start_in_command_mode": true,
 	"vintage_use_clipboard": true,
@@ -93,11 +91,9 @@
 	"draw_minimap_border": false,
 	"always_show_minimap_viewport": true,
 
-
 	"highlight_line": true,
     "highlight_gutter": true,
     "highlight_line_number": true,
-
 
     "block_caret": true,
     "caret_style": "phase",
@@ -115,8 +111,6 @@
     "match_selection": false,
 
 	"tab_size": 4,
-	"detect_indentation": false, // ?
-	"indent_to_bracket": true,   // ?
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"auto_indent": true,
@@ -130,10 +124,10 @@
 	"word_wrap": false,
 
 	"gutter": true,
-	"margin": 0,
+	"margin": 5,
 	"line_numbers": true,
-	"fold_buttons": true,
-	"fade_fold_buttons": false,
+
+	"fold_buttons": false,
 
     "show_definitions": true,
 
