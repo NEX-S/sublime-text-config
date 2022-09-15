@@ -1,0 +1,67 @@
+
+set number
+set ignorecase
+
+nnoremap <C-q> :qa!<CR>
+nnoremap ;q :q!<CR>
+" nnoremap ;w :w!<CR>
+
+nnoremap J 7j
+nnoremap K 7k
+vnoremap J 7j
+vnoremap K 7k
+
+nnoremap H ^
+nnoremap L $
+vnoremap H ^
+vnoremap L $
+
+nnoremap U <C-r>
+
+nnoremap ;f /
+nnoremap / ;
+
+nnoremap ;a ggvG$
+nnoremap ;c gcc
+vnoremap ;c gcgv
+
+nnoremap y "+y
+nnoremap Y "+Y
+vnoremap y "+y
+
+nnoremap p "+p
+nnoremap P "+P
+
+nnoremap <C-j> <C-i>
+nnoremap <C-k> <C-o>
+vnoremap <C-j> <C-i>
+vnoremap <C-k> <C-o>
+
+nnoremap <C-h> :bp<CR>
+nnoremap <C-l> :bn<CR>
+
+nnoremap + J
+nnoremap m %
+vnoremap m %
+
+nnoremap <space> ;
+vnoremap <space> ;
+
+nnoremap <A-h> <C-w>h
+nnoremap <A-j> <C-w>j
+nnoremap <A-k> <C-w>k
+nnoremap <A-l> <C-w>l
+
+nnoremap gm <C-n>
+
+" nnoremap ;e :Neovintageous action=toggle_side_bar<CR>
+
+nnoremap gs :ShowOverlay overlay=goto text=@<CR>
+
+nnoremap <C-o> o<ESC>
+nnoremap <C-O> O<ESC>
+
+" nnoremap <S-tab> <C-n>
+inoremap <C-j> <C-n>
+inoremap <C-k> <C-p>
+" inoremap <C-l> <C-p>

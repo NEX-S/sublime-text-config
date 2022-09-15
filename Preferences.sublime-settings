@@ -15,8 +15,12 @@
     "tree_animation_enabled": false,
     "animation_enabled": false,
 
-	"font_size": 12,
-	"font_face": "JetBrainsMono Nerd Font Mono",
+	"font_size": 13,
+	// "font_face": "JetBrainsMono Nerd Font Mono",
+    "font_face": "CodeNewRoman Nerd Font Mono",
+
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
 
     "highlight_modified_tabs": true,
     "show_tab_close_buttons": true,
@@ -42,8 +46,6 @@
     "show_indentation": true,
     "show_line_endings": false,
 
-    "line_padding_top": 0,
-    "line_padding_bottom": 0,
 
     "scroll_context_lines": 6,
 
@@ -82,7 +84,10 @@
     "indent_guide_options": ["draw_active_single"],
 
 	"ignored_packages": [
-    ],
+                                                                  "Six",
+                                                                  "Vintage",
+                                                                  "Vintageous",
+                                 ],
 
 	"vintage_start_in_command_mode": true,
 	"vintage_use_clipboard": true,
@@ -157,4 +162,8 @@
 
     "copy_with_empty_selection": true,
 
+    "ignored_snippets": ["*"],
+
+                                 "neovintageous_build_version": 11100,
+                                 "vintageous_use_ctrl_keys": true,
 }

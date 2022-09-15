@@ -1,0 +1,13 @@
+{
+    "linters":
+    {
+        "clang": {
+            // "args": "-fvery-important",
+            "I": [
+                "${folder}/",
+                // "${folder}/3rdparty/bar/include",
+                // "${folder}/3rdparty/baz"
+            ]
+        },
+    },
+}
