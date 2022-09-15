@@ -36,6 +36,26 @@
         ]
     },
 
+    // {   "keys": ["escape", "escape"],
+    //     "command": "show_overlay",
+    //     "args": {
+    //         "overlay": "command_palette",
+    //     },
+    //     "context": [
+    //         { "key": "setting.command_mode" }
+    //     ]
+    // },
+
+    {   "keys": ["tab"],
+        "command": "show_overlay",
+        "args": {
+            "overlay": "command_palette",
+        },
+        "context": [
+            { "key": "setting.command_mode" }
+        ]
+    },
+
     /////////////////////// ALT-KEYS ////////////////////////
     {   "keys": ["alt+k"],
         "command": "move_group_focus",
@@ -100,20 +120,19 @@
         ]
     },
 
+    // {   "keys": [";", "q"],
+    //     "command" : "vi_save_and_exit",
+    //     "context": [
+    //         { "key": "setting.command_mode" }
+    //     ]
+    // },
+
     {   "keys": [";", "q"],
-        "command" : "vi_save_and_exit",
+        "command": "close",
         "context": [
             { "key": "setting.command_mode" }
         ]
     },
-
-    // {   "keys": [";", "q"],
-    //     "command": "close",
-    //     "context": [
-    //         { "key": "setting.command_mode" }
-    //
-    //     ]
-    // },
 
     {   "keys": [";", "f"],
         "command": "show_panel",
@@ -239,7 +258,6 @@
         "args": { "by": "lines", "forward": true },
         "context": [
             { "key": "setting.command_mode", "operand": false },
-
         ]
     },
 
@@ -590,4 +608,5 @@
         ]
     },
 
+    { "keys": ["alt+a"], "command": "alignment" }
 ]
