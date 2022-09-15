@@ -1,4 +1,11 @@
 [
+    // {   "keys": [";", "q"],
+    //     "command": "close",
+    //     "context": [
+    //         { "key": "setting.command_mode" }
+    //     ]
+    // },
+
     {   "keys": [";", "w"],
         "command": "save", "args": { "async": true },
         "context": [
@@ -13,6 +20,14 @@
         },
         "context": [
             { "key": "setting.command_mode" }
+        ]
+    },
+
+    {   "keys": ["shift+tab"],
+        "command": "move",
+        "args": { "by": "lines", "forward": true },
+        "context": [
+            { "key": "setting.command_mode", "operand": false },
         ]
     },
 

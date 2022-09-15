@@ -61,7 +61,7 @@ nnoremap gs :ShowOverlay overlay=goto text=@<CR>
 nnoremap <C-o> o<ESC>
 nnoremap <C-O> O<ESC>
 
-" nnoremap <S-tab> <C-n>
-inoremap <C-j> <C-n>
-inoremap <C-k> <C-p>
+" nnoremap <S-TAB> <C-n>
+" inoremap <A-j> <C-n>
+" inoremap <A-k> <C-p>
 " inoremap <C-l> <C-p>

@@ -4,7 +4,7 @@
     "default_encoding": "UTF-8",
     "default_line_ending": "unix",
 
-    "reveal_menu": true,
+    "reveal_menu": false,
 
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkdesert.dark.tmTheme",
@@ -164,6 +164,5 @@
 
     "ignored_snippets": ["*"],
 
-                                 "neovintageous_build_version": 11100,
-                                 "vintageous_use_ctrl_keys": true,
+    "vintageous_use_ctrl_keys": true,
 }
