@@ -6,6 +6,16 @@
         ]
     },
 
+    {   "keys": ["shift+escape"],
+        "command": "show_overlay",
+        "args": {
+            "overlay": "command_palette",
+        },
+        "context": [
+            { "key": "setting.command_mode" }
+        ]
+    },
+
     ///////////////////// CTRL KEYS /////////////////////////
     {   "keys": ["ctrl+l"],
         "command": "next_view_in_stack",
@@ -31,16 +41,6 @@
 
     {   "keys": ["ctrl+j"],
         "command": "jump_forward",
-        "context": [
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["escape"],
-        "command": "show_overlay",
-        "args": {
-            "overlay": "command_palette",
-        },
         "context": [
             { "key": "setting.command_mode" }
         ]
@@ -598,5 +598,5 @@
         ]
     },
 
-    { "keys": ["alt+a"], "command": "alignment" }
+    { "keys": ["alt+a"], "command": "alignment" },
 ]

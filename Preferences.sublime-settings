@@ -4,9 +4,12 @@
     "default_encoding": "UTF-8",
     "default_line_ending": "unix",
 
+    "reveal_menu": true,
+
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkdesert.dark.tmTheme",
     "themed_title_bar": true,
+
     "file_tab_style": "angled",
 
     "tree_animation_enabled": false,
@@ -146,7 +149,7 @@
 
     "auto_complete_include_snippets": true,
 
-    "auto_hide_menu": true,
+    "auto_hide_menu": false,
     "auto_hide_tabs": false,
     "auto_hide_status_bar": false,
 

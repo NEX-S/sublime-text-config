@@ -1,0 +1,12 @@
+{
+    "scope": "source.c",
+    "completions": [
+        {
+            "trigger": "include",
+            "annotation": "headers",
+            "kind": "snippet",
+            "contents": "#include <${0:header.h}>",
+            // "details": "A simple, non-<code>async</code> function definition"
+        }
+    ]
+}
