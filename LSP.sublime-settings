@@ -1,21 +1,38 @@
-// Settings in here override those in "LSP/LSP.sublime-settings"
 {
     "show_inlay_hints": true,
-    "show_diagnostics_panel_on_save": 0,
+    "show_view_status": true,
+    "show_diagnostics_panel_on_save": 2,
     "document_highlight_style": "",
     "hover_highlight_style": "",
-    "diagnostics_gutter_marker": "sign",
     "inhibit_snippet_completions": true,
+    "link_highlight_style": "none",
+
+    "show_code_actions": "bulb",
+    "show_code_lens": "annotation",
+
+    "semantic_highlighting": true,
+
+    "inhibit_word_completions": true,
+    "inhibit_snippet_completions": true,
+
+  "show_references_in_quick_panel": true,
+
+    "diagnostics_gutter_marker": "dot",
     "diagnostics_highlight_style": {
-        "error": "box",
-        "warning": "box",
-        "info": "box",
-        "hint": "box"
+        "info": "",
+        "hint": "",
+        "warning": "",
+        "error": "squiggly",
     },
 
     "clients": {
         "clangd": {
             "enabled": true,
-        }
+            "command": [
+                "clangd"
+            ],
+            "selector": "source.c | source.c++ | source.objc | source.objc++",
+            "auto_complete_selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+        },
     },
 }

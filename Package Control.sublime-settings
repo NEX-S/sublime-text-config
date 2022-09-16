@@ -5,6 +5,8 @@
 	"installed_packages": [
 		"Duotones Colorschemes",
 		"LSP",
+		"LSP-file-watcher-chokidar",
+		"LSP-pyright",
 		"NeoVintageous",
 		"Package Control",
 		"SublimeCodeIntel",

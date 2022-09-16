@@ -165,4 +165,5 @@
     "ignored_snippets": ["*"],
 
     "vintageous_use_ctrl_keys": true,
+    "neovintageous_build_version": 11100,
 }

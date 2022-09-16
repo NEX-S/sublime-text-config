@@ -4,7 +4,7 @@ set ignorecase
 
 nnoremap <C-q> :qa!<CR>
 nnoremap ;q :q!<CR>
-" nnoremap ;w :w!<CR>
+nnoremap ;w :w!<CR>
 
 nnoremap J 7j
 nnoremap K 7k
@@ -22,12 +22,17 @@ nnoremap ;f /
 nnoremap / ;
 
 nnoremap ;a ggvG$
+
 nnoremap ;c gcc
 vnoremap ;c gcgv
 
 nnoremap y "+y
 nnoremap Y "+Y
 vnoremap y "+y
+
+nnoremap d "+d
+nnoremap D "+D
+vnoremap d "+d
 
 nnoremap p "+p
 nnoremap P "+P
