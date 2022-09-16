@@ -64,20 +64,6 @@
         ]
     },
 
-    {   "keys": [">"],
-        "command": "indent",
-        "context": [
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["<"],
-        "command": "unindent",
-        "context": [
-            { "key": "setting.command_mode" }
-        ]
-    },
-
     {   "keys": [";", "r"],
         "command": "build",
         "context": [
@@ -89,6 +75,14 @@
         "command": "terminus_close",
         "context": [
             { "key": "terminus_view" }
+        ]
+    },
+
+    {   "keys": [";", "c"],
+        "command": "toggle_comment",
+        "args": { "block": false },
+        "context": [
+            { "key": "setting.command_mode" }
         ]
     },
 
@@ -138,193 +132,6 @@
     // },
 
     /////////////////////////// LSP ///////////////////////////////
-
-    {   "keys": ["g", "d"],
-        "command": "lsp_symbol_definition",
-        "args": {
-            "side_by_side": false,
-            "force_group": true,
-            "fallback": true
-        },
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "definitionProvider"
-            },
-            {
-                "key": "auto_complete_visible",
-                "operator": "equal",
-                "operand": false
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["g", "t"],
-        "command": "lsp_symbol_type_definition",
-        "args": {
-            "side_by_side": false,
-            "force_group": true
-        },
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "typeDefinitionProvider"
-            },
-            {
-                "key": "auto_complete_visible",
-                "operator": "equal",
-                "operand": false
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["alt+d"],
-        "command": "lsp_symbol_declaration",
-        "args": {
-            "side_by_side": false,
-            "force_group": true
-        },
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "declarationProvider"
-            },
-            {
-                "key": "auto_complete_visible",
-                "operator": "equal",
-                "operand": false
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["g", "i"],
-        "command": "lsp_symbol_implementation",
-        "args": {
-            "side_by_side": false,
-            "force_group": true
-        },
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "implementationProvider"
-            },
-            {
-                "key": "auto_complete_visible",
-                "operator": "equal",
-                "operand": false
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["ctrl+d"],
-        "command": "lsp_goto_diagnostic",
-        "args": { "uri": "$view_uri" },
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "implementationProvider"
-            },
-            {
-                "key": "auto_complete_visible",
-                "operator": "equal",
-                "operand": false
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["ctrl+r"],
-        "command": "lsp_symbol_rename",
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "renameProvider"
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["alt+="],
-        "command": "lsp_format_document",
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "documentFormattingProvider | documentRangeFormattingProvider"
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    // {   "keys": ["\\"],
-    //     "command": "lsp_format_document_range",
-    //     "context": [
-    //         {
-    //             "key": "lsp.session_with_capability",
-    //             "operator": "equal",
-    //             "operand": "documentRangeFormattingProvider"
-    //         },
-    //         { "key": "setting.command_mode" }
-    //     ]
-    // },
-
-    {   "keys": ["g", "s"],
-        "command": "lsp_document_symbols",
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "documentSymbolProvider"
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    // {   "keys": ["g", "S"],
-    //     "command": "lsp_workspace_symbols",
-    //     "context": [
-    //         {
-    //             "key": "lsp.session_with_capability",
-    //             "operator": "equal",
-    //             "operand": "workspaceSymbolProvider"
-    //         },
-    //         { "key": "setting.command_mode" }
-    //     ]
-    // },
-
-    {   "keys": [";", "v"],
-        "command": "lsp_expand_selection",
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "selectionRangeProvider"
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
-
-    {   "keys": ["g", "a"],
-        "command": "lsp_code_actions",
-        "context": [
-            {
-                "key": "lsp.session_with_capability",
-                "operator": "equal",
-                "operand": "codeActionProvider"
-            },
-            { "key": "setting.command_mode" }
-        ]
-    },
 
     {   "keys": ["ctrl+tab"],
         "command": "lsp_signature_help_show",

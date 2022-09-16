@@ -7,15 +7,15 @@
     "inhibit_snippet_completions": true,
     "link_highlight_style": "none",
 
-    "show_code_actions": "bulb",
+    "show_code_actions": "annotation",
     "show_code_lens": "annotation",
 
     "semantic_highlighting": true,
 
     "inhibit_word_completions": true,
-    "inhibit_snippet_completions": true,
+    "inhibit_snippet_completions": false,
 
-  "show_references_in_quick_panel": true,
+    "show_references_in_quick_panel": true,
 
     "diagnostics_gutter_marker": "dot",
     "diagnostics_highlight_style": {
