@@ -1,4 +1,9 @@
 {
+    "gutter_theme": "Danish Royalty",
+    "highlights.demote_while_editing": "none",
+    "highlights.demote_scope": "comment",
+    "lint_mode": "load_save",
+    "no_column_highlights_line": true,
     "linters":
     {
         "clang": {
@@ -10,4 +15,21 @@
             ]
         },
     },
+    "show_hover_line_report": true,
+    "show_hover_region_report": true,
+    "show_marks_in_minimap": true,
+    "show_panel_on_save": "view",
+    "statusbar.show_active_linters": true,
+    "styles": [
+        {
+            // redish, orangish, yellowish, greenish, bluish, purplish, pinkish.
+            "scope": "region.pinkish markup.warning.sublime_linter",
+
+            "types": ["warning"],
+        }, {
+            "priority": 1,
+            "icon": "dot",
+            "mark_style": "squiggly_underline",
+        }
+    ]
 }

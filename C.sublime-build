@@ -1,4 +1,6 @@
 {
+    "selector": "source.c",
+    // "file_regex": "*.c",
     "target": "terminus_open",
     "auto_close": false,
     // "cancel": "terminus_cancel_build",

@@ -1,7 +1,9 @@
 {
+    "selector": "source.python",
+    // "file_regex": "*.py",
     "target": "terminus_open",
     "auto_close": false,
     // "cancel": "terminus_cancel_build",
-    "working_dir": "$folder",
-    "shell_cmd": "time python3 -u $file_name",
+    // "working_dir": "$folder",
+    "shell_cmd": "time python3 -u $file",
 }

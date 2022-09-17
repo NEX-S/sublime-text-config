@@ -34,7 +34,6 @@ vnoremap <lt> <lt>gv
 nnoremap > >>
 vnoremap > >gv
 
-nnoremap ;a ggvG$
 
 " nnoremap ;c gcc
 " vnoremap ;c gcgv
@@ -94,8 +93,23 @@ nnoremap gt :LspSymbolTypeDefinition side_by_side=false force_group=true fallbac
 nnoremap gi :LspSymbolImplementation side_by_side=false force_group=true fallback=true<CR>
 
 nnoremap <A-d> :LspSymbolDeclaration side_by_side=false force_group=true fallback=true<CR>
-nnoremap <C-d> :LspGotoDiagnostic uri=$view_uri<CR>
+" nnoremap <C-d> :LspGotoDiagnostic uri=$view_uri<CR>
 nnoremap <C-r> :LspSymbolRename<CR>
 nnoremap <A-=> :LspFormatDocument<CR>
-nnoremap <C-=> :LspFormatDocumentRange<CR>
+" nnoremap <C-=> :LspFormatDocumentRange<CR>
 " nnoremap <C-Tab> :LspSignatureHelpShow<CR>
+
+nnoremap <TAB> <C-w>b
+
+nnoremap ;a ggvG$
+nnoremap ;w :Save async=true<CR>
+nnoremap ;e :ToggleSideBar<CR>
+nnoremap ;r :Build<CR>
+nnoremap ;w :Save async=true<CR>
+nnoremap ;c :ToggleComment block=false<CR>
+vnoremap ;c :ToggleComment block=false<CR>
+nnoremap ;b :ToggleComment block=true<CR>
+vnoremap ;b :ToggleComment block=true<CR>
+
+nnoremap ;x :TerminusOpen<CR>
+nnoremap <ESC> :TerminusClose<CR>

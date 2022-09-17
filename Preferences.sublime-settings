@@ -12,33 +12,39 @@
 
     "file_tab_style": "angled",
 
-    "tree_animation_enabled": false,
+    "tree_animation_enabled": true,
     "animation_enabled": false,
 
 	"font_size": 13,
 	// "font_face": "JetBrainsMono Nerd Font Mono",
     "font_face": "CodeNewRoman Nerd Font Mono",
 
+    "inactive_sheet_dimming": true,
+
     "line_padding_top": 2,
     "line_padding_bottom": 2,
+
+    "highlight_find_results_in_scrollbar": true,
 
     "highlight_modified_tabs": true,
     "show_tab_close_buttons": true,
     "show_tab_close_buttons_on_left": false,
 
+    "focus_on_file_drop": true,
+
     "bold_folder_labels": false,
 
-    "adaptive_dividers": true,
+    "adaptive_dividers": false,
 
-    "popup_shadows": false,
+    "popup_shadows": true,
 
     "overlay_scroll_bars": "enabled",
 
-    "hide_tab_scrolling_buttons": true,
+    "hide_tab_scrolling_buttons": false,
 
     "hide_new_tab_button": true,
 
-    "show_sidebar_button": true,
+    "show_sidebar_button": false,
 
     "show_git_status_in_status_bar": true,
 
@@ -49,17 +55,19 @@
 
     "scroll_context_lines": 6,
 
-    "hot_exit": "always",
+    "hot_exit": "on_quit",
     "remember_full_screen": true,
-    "remember_workspace": true,
-    "remember_layout": true,
+    "remember_workspace": false,
+    "remember_layout": false,
 
     "reload_file_on_change": false,
     "close_deleted_files": true,
 
     "close_windows_when_empty": true,
 
-    "show_full_path": false,
+    "show_full_path": true,
+    "show_rel_path": false,
+    "show_panel_on_build": false,
 
     "show_project_first": false,
 
@@ -81,13 +89,11 @@
     // "draw_white_space": ["trailing", "enclosed", "leading"],
     "draw_white_space": ["all"],
     "draw_indent_guides": true,
-    "indent_guide_options": ["draw_active_single"],
+    "indent_guide_options": ["draw_active"],
 
 	"ignored_packages": [
-                                                                  "Six",
-                                                                  "Vintage",
-                                                                  "Vintageous",
-                                 ],
+        "Vintageous",
+    ],
 
 	"vintage_start_in_command_mode": true,
 	"vintage_use_clipboard": true,
@@ -105,29 +111,34 @@
 
     "block_caret": true,
     "caret_style": "phase",
-    "caret_extra_top": 0,
-    "caret_extra_bottom": 0,
+    "caret_extra_top": 1,
+    "caret_extra_bottom": 1,
     "caret_extra_width": 1,
 
-    "match_brackets": true,
-    "match_brackets_content": true,
-    "match_brackets_square": true,
-    "match_brackets_braces": true,
-    "match_brackets_angle": false,
+    "match_brackets": false,
+    "match_brackets_content": false, // ()
+    "match_brackets_square": false,  // []
+    "match_brackets_braces": false,  // {}
+    "match_brackets_angle": false,   // <>
 
-    "match_tags": true,
+    "match_tags": true, // HTML XML TAGS
     "match_selection": false,
+
+    "draw_unicode_white_space": "all",
+
+    "selection_description_column_type": "all",
 
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"auto_indent": true,
 	"smart_indent": true,
+    "indent_subsequent_lines": false,
 
 	"show_encoding": true,
 	"trim_trailing_white_space_on_save": "not_on_caret",
 
-    "ensure_newline_at_eof_on_save": false,
+    "ensure_newline_at_eof_on_save": true,
 
 	"word_wrap": false,
 
@@ -137,22 +148,23 @@
 
 	"fold_buttons": false,
 
-    "show_definitions": true,
+    "show_definitions": false,
 
     "tab_completion": true,
 
     "auto_complete": true,
-    "auto_complete_delay": 0,
-    "auto_complete_commit_on_tab": true,
-    "auto_complete_with_fields": false,
+    "auto_complete_delay": 50,
+    "auto_complete_commit_on_tab": true, // make CR ignore completion
+    "auto_complete_with_fields": true,   // show completion in snippets
     "auto_complete_cycle": true,
     "auto_complete_use_index": true,
-    "auto_complete_use_history": true,
-    "auto_complete_preserve_order": "strict",
+    "auto_complete_use_history": false,
+    "auto_complete_preserve_order": "some",
     "auto_complete_trailing_symbols": true,
     "auto_complete_trailing_spaces": true,
 
-    "auto_complete_include_snippets": true,
+    "auto_complete_include_snippets": false,
+    "auto_complete_include_snippets_when_typing": false,
 
     "auto_hide_menu": false,
     "auto_hide_tabs": false,
@@ -163,7 +175,6 @@
     "copy_with_empty_selection": true,
 
     "ignored_snippets": ["*"],
-
 
     // NeoVintageous
     "vintageous_use_ctrl_keys": true,
@@ -190,6 +201,8 @@
 
     "vintageous_handle_keys": {
         "<C-n>": false,
+        "<C-P>": false,
+        "<C-B>": false,
     },
-
+    "enable_autoreload": true,
 }

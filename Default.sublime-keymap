@@ -1,0 +1,39 @@
+[
+    {   "keys": ["shift+escape"],
+        "command": "show_overlay",
+        "args": {
+            "overlay": "command_palette",
+        },
+        "context": [
+            { "key": "setting.command_mode" }
+        ]
+    },
+
+    {   "keys": ["shift+tab"],
+        "command": "move",
+        "args": { "by": "lines", "forward": true },
+        "context": [
+            { "key": "setting.command_mode", "operand": false },
+        ]
+    },
+
+    {   "keys": ["escape"],
+        "command": "terminus_close",
+        "context": [
+            { "key": "terminus_view" }
+        ]
+    },
+
+    /////////////////////////// LSP ///////////////////////////////
+
+    {   "keys": ["ctrl+tab"],
+        "command": "lsp_signature_help_show",
+        "context": [
+            {
+                "key": "lsp.signature_help_available",
+                "operator": "equal",
+                "operand": true
+            }
+        ]
+    },
+]
