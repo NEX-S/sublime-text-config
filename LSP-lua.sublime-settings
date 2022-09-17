@@ -1,0 +1,7 @@
+// Settings in here override those in "LSP-lua/LSP-lua.sublime-settings"
+{
+    "Lua.diagnostics.enable": false,
+    "Lua.hint.enable": true,
+    "Lua.telemetry.enable": true,
+    "Lua.window.progressBar": true,
+}

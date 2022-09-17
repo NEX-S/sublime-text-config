@@ -24,6 +24,21 @@
         ]
     },
 
+    {   "keys": ["ctrl+k"],
+        "command": "jump_back",
+        "context": [
+            { "key": "setting.command_mode" }
+        ]
+    },
+
+    {   "keys": ["ctrl+j"],
+        "command": "jump_forward",
+        "context": [
+            { "key": "setting.command_mode" }
+        ]
+    },
+
+
     /////////////////////////// LSP ///////////////////////////////
 
     {   "keys": ["ctrl+tab"],
@@ -36,4 +51,18 @@
             }
         ]
     },
+
+    ///////////////////////// LINTERS ////////////////////////////
+
+    { "keys": ["alt+d"], "command": "sublime_linter_panel_toggle" },
+
+    {   "keys": ["alt+n"],
+        "command": "sublime_linter_goto_error",
+        "args": { "direction": "next" }
+    },
+
+    {   "keys": ["alt+p"],
+        "command": "sublime_linter_goto_error",
+        "args": { "direction": "previous" }
+    }
 ]

@@ -2,6 +2,8 @@
     "show_inlay_hints": true,
     "show_view_status": true,
     "show_diagnostics_panel_on_save": 2,
+    "show_diagnostics_in_view_status": true,
+    "show_diagnostics_count_in_view_status": true,
     "document_highlight_style": "",
     "hover_highlight_style": "",
     "inhibit_snippet_completions": true,
@@ -34,5 +36,12 @@
             "selector": "source.c | source.c++ | source.objc | source.objc++",
             "auto_complete_selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
         },
+        // "lua-language-server": {
+        //     "enabled": true,
+        //     "command": [
+        //         "lua-language-server"
+        //     ],
+        //     "selector": "source.lua",
+        // }
     },
 }

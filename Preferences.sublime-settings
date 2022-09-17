@@ -76,7 +76,7 @@
 
     "git_diff_target": "head",
 
-    "preview_on_click": true,
+    "preview_on_click": "only_left",
 
     "console_max_history_lines": 100,
 
@@ -89,9 +89,11 @@
     // "draw_white_space": ["trailing", "enclosed", "leading"],
     "draw_white_space": ["all"],
     "draw_indent_guides": true,
-    "indent_guide_options": ["draw_active"],
+    "indent_guide_options": ["draw_active_single"],
 
 	"ignored_packages": [
+        "Six",
+        "Vintage",
         "Vintageous",
     ],
 
@@ -203,6 +205,7 @@
         "<C-n>": false,
         "<C-P>": false,
         "<C-B>": false,
+        "<C-,>": false, // Prev Modification
+        "<C-.>": false, // Next Modification
     },
-    "enable_autoreload": true,
 }

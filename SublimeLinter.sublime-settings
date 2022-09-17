@@ -4,17 +4,6 @@
     "highlights.demote_scope": "comment",
     "lint_mode": "load_save",
     "no_column_highlights_line": true,
-    "linters":
-    {
-        "clang": {
-            // "args": "-fvery-important",
-            "I": [
-                "${folder}/",
-                // "${folder}/3rdparty/bar/include",
-                // "${folder}/3rdparty/baz"
-            ]
-        },
-    },
     "show_hover_line_report": true,
     "show_hover_region_report": true,
     "show_marks_in_minimap": true,
@@ -31,5 +20,15 @@
             "icon": "dot",
             "mark_style": "squiggly_underline",
         }
-    ]
+    ],
+    "linters": {
+        "clang": {
+            // "args": "-fvery-important",
+            "I": [
+                "${folder}/",
+                // "${folder}/3rdparty/bar/include",
+                // "${folder}/3rdparty/baz"
+            ]
+        },
+    },
 }

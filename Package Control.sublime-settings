@@ -5,12 +5,14 @@
 	"installed_packages": [
 		"Duotones Colorschemes",
 		"LSP",
+		"LSP-lua",
 		"LSP-pyright",
 		"NeoVintageous",
 		"Package Control",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-clang",
+		"SublimeLinter-contrib-luau",
 		"Terminus",
 	],
 }

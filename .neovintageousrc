@@ -49,10 +49,8 @@ vnoremap > >gv
 " nnoremap p "+p
 " nnoremap P "+P
 
-nnoremap <C-j> <C-i>
-nnoremap <C-k> <C-o>
-vnoremap <C-j> <C-i>
-vnoremap <C-k> <C-o>
+" nnoremap <C-j> :JumpForward<CR>
+" nnoremap <C-k> :JumpBack<CR>
 
 nnoremap <C-h> :bp<CR>
 nnoremap <C-l> :bn<CR>
@@ -113,3 +111,5 @@ vnoremap ;b :ToggleComment block=true<CR>
 
 nnoremap ;x :TerminusOpen<CR>
 nnoremap <ESC> :TerminusClose<CR>
+
+nnoremap gf :OpenFileUnderSelection<CR>
