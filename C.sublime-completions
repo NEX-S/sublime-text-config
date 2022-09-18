@@ -14,6 +14,76 @@
             "kind": "snippet",
             "contents": "include \"${1:header.h}\"$0",
             // "details": "A simple, non-<code>async</code> function definition"
-        }
+        },
+        {
+            "trigger": "print",
+            "annotation": "CONTENT",
+            "kind": "snippet",
+            "contents": "printf(\"${1:content}\\n\");$0",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "printf",
+            "annotation": "FORMAT",
+            "kind": "snippet",
+            "contents": "printf(\"%${1:d}\\n\", $2);$0",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "scanf",
+            "annotation": "SCANF Variable",
+            "kind": "snippet",
+            "contents": "scanf(\"%${1:d}\", &$0);",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "if",
+            "annotation": "If Statement",
+            "kind": "snippet",
+            "contents": "if (${1:condition}) {\n\t${0:CODE}\n}",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "else",
+            "annotation": "If Statement",
+            "kind": "snippet",
+            "contents": "else {\n\t${0:CODE}\n}",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "elseif",
+            "annotation": "If Statement",
+            "kind": "snippet",
+            "contents": "else if (${1:condition}) {\n\t${0:CODE}\n}",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "scanf",
+            "annotation": "SCANF Pointer",
+            "kind": "snippet",
+            "contents": "scanf(\"%${1:d}\", $0);",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "for",
+            "annotation": "For Loop",
+            "kind": "snippet",
+            "contents": "for (${1:init-statement}; ${2:condition}; ${3:expression}) {\n\t${0:CODE}\n}",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "while",
+            "annotation": "While Loop",
+            "kind": "snippet",
+            "contents": "while (${1:condition}) {\n\t${0:CODE}\n}",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "do",
+            "annotation": "Do-While Loop",
+            "kind": "snippet",
+            "contents": "do {\n\t${1:CODE}\n} while (${0:condition});",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
     ]
 }

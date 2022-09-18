@@ -8,6 +8,7 @@ set nominimap
 set statusbar
 set sidebar
 set list
+set winaltkeys=no
 
 nnoremap <C-q> :qa!<CR>
 nnoremap ;q :q!<CR>
@@ -89,6 +90,7 @@ nnoremap ga :LspCodeActions<CR>
 nnoremap gd :LspSymbolDefinition side_by_side=false force_group=true fallback=true<CR>
 nnoremap gt :LspSymbolTypeDefinition side_by_side=false force_group=true fallback=true<CR>
 nnoremap gi :LspSymbolImplementation side_by_side=false force_group=true fallback=true<CR>
+nnoremap gh :LspHover<CR>
 
 nnoremap <A-d> :LspSymbolDeclaration side_by_side=false force_group=true fallback=true<CR>
 " nnoremap <C-d> :LspGotoDiagnostic uri=$view_uri<CR>
@@ -112,4 +114,4 @@ vnoremap ;b :ToggleComment block=true<CR>
 nnoremap ;x :TerminusOpen<CR>
 nnoremap <ESC> :TerminusClose<CR>
 
-nnoremap gf :OpenFileUnderSelection<CR>
+" nnoremap gf :ViOpenFileUnderSelection<CR>

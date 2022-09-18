@@ -7,7 +7,7 @@
     "reveal_menu": false,
 
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkdesert.dark.tmTheme",
+	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkforest.dark.tmTheme",
     "themed_title_bar": true,
 
     "file_tab_style": "angled",
@@ -15,14 +15,15 @@
     "tree_animation_enabled": true,
     "animation_enabled": false,
 
-	"font_size": 13,
+	"font_size": 12,
 	// "font_face": "JetBrainsMono Nerd Font Mono",
-    "font_face": "CodeNewRoman Nerd Font Mono",
+    // "font_face": "CodeNewRoman Nerd Font Mono",
+    "font_face": "BigBlue_TerminalPlus Nerd Font Mono",
 
     "inactive_sheet_dimming": true,
 
-    "line_padding_top": 2,
-    "line_padding_bottom": 2,
+    "line_padding_top": 1,
+    "line_padding_bottom": 1,
 
     "highlight_find_results_in_scrollbar": true,
 
@@ -150,7 +151,7 @@
 
 	"fold_buttons": false,
 
-    "show_definitions": false,
+    "show_definitions": true,
 
     "tab_completion": true,
 
@@ -166,7 +167,7 @@
     "auto_complete_trailing_spaces": true,
 
     "auto_complete_include_snippets": false,
-    "auto_complete_include_snippets_when_typing": false,
+    "auto_complete_include_snippets_when_typing": true,
 
     "auto_hide_menu": false,
     "auto_hide_tabs": false,
@@ -208,4 +209,5 @@
         "<C-,>": false, // Prev Modification
         "<C-.>": false, // Next Modification
     },
+    "completion_style": "phantom",
 }

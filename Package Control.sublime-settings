@@ -13,7 +13,6 @@
 		"SublimeLinter",
 		"SublimeLinter-clang",
 		"SublimeLinter-contrib-luau",
-		"Tabnine",
 		"Terminus",
 	],
 }

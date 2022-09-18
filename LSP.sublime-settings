@@ -6,11 +6,12 @@
     "show_diagnostics_count_in_view_status": true,
     "document_highlight_style": "",
     "hover_highlight_style": "",
-    "inhibit_snippet_completions": true,
+    "inhibit_word_completions": true,
+    "inhibit_snippet_completions": false,
     "link_highlight_style": "none",
 
-    "show_code_actions": "annotation",
-    "show_code_lens": "annotation",
+    "show_code_actions": "bulb",
+    "show_code_lens": "phantom",
 
     "semantic_highlighting": true,
 
@@ -35,6 +36,10 @@
             ],
             "selector": "source.c | source.c++ | source.objc | source.objc++",
             "auto_complete_selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+            "disabled_capabilities": {
+                "hoverProvider": false,
+                "snippetsSupport": true,
+            }
         },
         // "lua-language-server": {
         //     "enabled": true,
