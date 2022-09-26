@@ -1,13 +1,20 @@
 
+set autoindent
+" set tabstop = 4
+set expandtabs
 set number
 set cursorline
 set hlsearch
 set nomenu
 set ignorecase
-set nominimap
+set smartcase
+set magic
+set minimap
+set nomodeline
+" set shell
 set statusbar
 set sidebar
-set list
+" set list
 set winaltkeys=no
 
 nnoremap <C-q> :qa!<CR>
@@ -24,6 +31,8 @@ nnoremap L $
 vnoremap H ^
 vnoremap L $
 
+vnoremap s s<TAB>
+
 nnoremap U <C-r>
 
 nnoremap ;f /
@@ -39,16 +48,16 @@ vnoremap > >gv
 " nnoremap ;c gcc
 " vnoremap ;c gcgv
 
-" nnoremap y "+y
-" nnoremap Y "+Y
-" vnoremap y "+y
+nnoremap y "+y
+nnoremap Y "+Y
+vnoremap y "+y
 
-" nnoremap d "+d
-" nnoremap D "+D
-" vnoremap d "+d
+nnoremap d "+d
+nnoremap D "+D
+vnoremap d "+d
 
-" nnoremap p "+p
-" nnoremap P "+P
+nnoremap p "+p
+nnoremap P "+P
 
 " nnoremap <C-j> :JumpForward<CR>
 " nnoremap <C-k> :JumpBack<CR>

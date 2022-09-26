@@ -2,6 +2,18 @@
     "scope": "source.c",
     "completions": [
         {
+            "trigger": "main",
+            "annotation": "main func",
+            "kind": "snippet",
+            "contents": "int main (int argc, char * argv[])\n{\n\t${0:CODE}\n\treturn 0;\n}"
+        },
+        {
+            "trigger": "main",
+            "annotation": "main program",
+            "kind": "snippet",
+            "contents": "#include <stdio.h>\n#include <stdlib.h>\n\nint main (int argc, char * argv[])\n{\n\t${0:CODE}\n\treturn 0;\n}"
+        },
+        {
             "trigger": "#include <>",
             "annotation": "headers",
             "kind": "snippet",
@@ -19,21 +31,21 @@
             "trigger": "print",
             "annotation": "CONTENT",
             "kind": "snippet",
-            "contents": "printf(\"${1:content}\\n\");$0",
+            "contents": "printf(\"${1:}\\n\");$0",
             // "details": "A simple, non-<code>async</code> function definition"
         },
         {
             "trigger": "printf",
             "annotation": "FORMAT",
             "kind": "snippet",
-            "contents": "printf(\"%${1:d}\\n\", $2);$0",
+            "contents": "printf(\"%${1:i}\\n\", $2);$0",
             // "details": "A simple, non-<code>async</code> function definition"
         },
         {
             "trigger": "scanf",
             "annotation": "SCANF Variable",
             "kind": "snippet",
-            "contents": "scanf(\"%${1:d}\", &$0);",
+            "contents": "scanf(\"%${1:i}\", &$0);",
             // "details": "A simple, non-<code>async</code> function definition"
         },
         {
@@ -83,6 +95,13 @@
             "annotation": "Do-While Loop",
             "kind": "snippet",
             "contents": "do {\n\t${1:CODE}\n} while (${0:condition});",
+            // "details": "A simple, non-<code>async</code> function definition"
+        },
+        {
+            "trigger": "struct",
+            "annotation": "Structure",
+            "kind": "snippet",
+            "contents": "struct ${1:name} {\n\t${2:property}\n}$0;",
             // "details": "A simple, non-<code>async</code> function definition"
         },
     ]

@@ -7,7 +7,7 @@
     "reveal_menu": false,
 
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkforest.dark.tmTheme",
+	"color_scheme": "Packages/Duotones Colorschemes/duotone-darkdesert.dark.tmTheme",
     "themed_title_bar": true,
 
     "file_tab_style": "angled",
@@ -17,7 +17,7 @@
 
 	"font_size": 12,
 	// "font_face": "JetBrainsMono Nerd Font Mono",
-    // "font_face": "CodeNewRoman Nerd Font Mono",
+    // "font_face": "CodeNewRoman Nerd Font Mono", // 14 2 2
     "font_face": "BigBlue_TerminalPlus Nerd Font Mono",
 
     "inactive_sheet_dimming": true,
@@ -158,7 +158,7 @@
     "auto_complete": true,
     "auto_complete_delay": 50,
     "auto_complete_commit_on_tab": true, // make CR ignore completion
-    "auto_complete_with_fields": true,   // show completion in snippets
+    "auto_complete_with_fields": false,   // show completion in snippets
     "auto_complete_cycle": true,
     "auto_complete_use_index": true,
     "auto_complete_use_history": false,
@@ -188,19 +188,19 @@
     "neovintageous_search_cur_style": "underline",
     "neovintageous_search_occ_style": "underline",
 
+    "vintageous_enable_surround": false,
+    "vintageous_enable_multiple_cursors": true,
     "vintageous_enable_abolish": false,
     "vintageous_enable_commentary": false,
-    "vintageous_enable_multiple_cursors": true,
     "vintageous_enable_sneak": false,
     "vintageous_enable_sublime": false,
-    "vintageous_enable_surround": true,
     "vintageous_enable_unimpaired": false,
 
     "vintageous_multi_cursor_exit_from_visual_mode": true,
     "vintageous_reset_mode_when_switching_tabs": true,
     "vintageous_shell_silent": true,
     "vintageous_use_super_keys": true,
-    "vintageous_use_sys_clipboard": true,
+    "vintageous_use_sys_clipboard": false,
 
     "vintageous_handle_keys": {
         "<C-n>": false,
@@ -209,5 +209,4 @@
         "<C-,>": false, // Prev Modification
         "<C-.>": false, // Next Modification
     },
-    "completion_style": "phantom",
 }

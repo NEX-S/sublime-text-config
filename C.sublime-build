@@ -4,6 +4,6 @@
     "target": "terminus_open",
     "auto_close": false,
     // "cancel": "terminus_cancel_build",
-    "working_dir": "$folder",
-    "shell_cmd": "clang $file -Wall -I ./ -g -std=gnu2x -o $file_path/bin/$file_base_name && printf '\\n' && time $file_path/bin/$file_base_name",
+    // "working_dir": "$folder",
+    "shell_cmd": "cd $file_path && clang $file -Wall -I ./ -g -std=gnu2x -o ./bin/$file_base_name && printf '\\n' && time ./bin/$file_base_name",
 }

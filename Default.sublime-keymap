@@ -38,11 +38,6 @@
         ]
     },
 
-    { "keys": ["g", "f"], "command": "vi_open_file_under_selection",
-            "context": [{"key": "setting.command_mode"}]
-    },
-
-
     /////////////////////////// LSP ///////////////////////////////
 
     {   "keys": ["ctrl+tab"],
