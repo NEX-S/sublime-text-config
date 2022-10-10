@@ -1,0 +1,6 @@
+{
+    "selector": "source.php",
+    "target": "terminus_open",
+    "auto_close": false,
+    "shell_cmd": "cd $file_path && printf '\\n' && time php $file",
+}

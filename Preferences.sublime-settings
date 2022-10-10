@@ -181,7 +181,7 @@
 
     // NeoVintageous
     "vintageous_use_ctrl_keys": true,
-    "neovintageous_build_version": 11100,
+    "neovintageous_build_version": 12700,
 
     "highlightedyank": false,
     "neovintageous_search_inc_style": "underline",

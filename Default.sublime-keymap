@@ -24,14 +24,14 @@
         ]
     },
 
-    {   "keys": ["ctrl+k"],
+    {   "keys": ["alt+k"],
         "command": "jump_back",
         "context": [
             { "key": "setting.command_mode" }
         ]
     },
 
-    {   "keys": ["ctrl+j"],
+    {   "keys": ["alt+j"],
         "command": "jump_forward",
         "context": [
             { "key": "setting.command_mode" }

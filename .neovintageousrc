@@ -31,8 +31,6 @@ nnoremap L $
 vnoremap H ^
 vnoremap L $
 
-vnoremap s s<TAB>
-
 nnoremap U <C-r>
 
 nnoremap ;f /
@@ -62,8 +60,8 @@ nnoremap P "+P
 " nnoremap <C-j> :JumpForward<CR>
 " nnoremap <C-k> :JumpBack<CR>
 
-nnoremap <C-h> :bp<CR>
-nnoremap <C-l> :bn<CR>
+nnoremap <A-h> :bp<CR>
+nnoremap <A-l> :bn<CR>
 
 nnoremap + J
 nnoremap m %
@@ -72,10 +70,10 @@ vnoremap m %
 nnoremap <space> ;
 vnoremap <space> ;
 
-nnoremap <A-h> <C-w>h
-nnoremap <A-j> <C-w>j
-nnoremap <A-k> <C-w>k
-nnoremap <A-l> <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 nnoremap gm <C-n>
 
